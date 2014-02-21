@@ -1,0 +1,46 @@
+{
+  "name": "markdown-symbols",
+  "description": "Easily add and create custom symbols to use in markdown, and then compile them to HTML.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/markdown-symbols",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonschlinkert/markdown-symbols.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/markdown-symbols/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/markdown-symbols/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "frep": "~0.1.6",
+    "lodash": "~2.4.1",
+    "chai": "~1.9.0",
+    "fs-utils": "~0.3.6",
+    "delims": "~0.1.2"
+  },
+  "keywords": [
+    "convert markdown",
+    "gfm markdown",
+    "gfm",
+    "github markdown",
+    "handlebars helper",
+    "handlebars",
+    "helper",
+    "highlight.js",
+    "markdown headings",
+    "markdown to html",
+    "markdown",
+    "marked",
+    "md"
+  ]
+}

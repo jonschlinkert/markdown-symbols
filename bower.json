@@ -1,0 +1,7 @@
+{
+  "name": "markdown-symbols",
+  "version": "0.2.2",
+  "main": [
+    "index.js"
+  ]
+}
