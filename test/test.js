@@ -21,22 +21,13 @@ describe('symbols', function () {
     });
   });
 
-
-  describe('blockquotes:', function () {
-    it('should generate HTML for a blockquote', function () {
-      var actual = symbols.process('> blockquote');
-      expect(actual).to.eql('<blockquote>blockquote</blockquote>');
-    });
-  });
-
-
   describe('spoilers:', function () {
     it('should generate HTML for a spoiler with the "spoiler-info" modifier class', function () {
-      var actual = symbols.process('{{Simple spoiler|info}}');
+      var actual = symbols.process('@{Simple spoiler|info}');
       expect(actual).to.eql('<div class="spoiler spoiler-info">Simple spoiler</div>');
     });
     it('should generate HTML for a spoiler with the "spoiler-info" modifier class', function () {
-      var actual = symbols.process('{{Write me at <john.doe@example.com>|info}}');
+      var actual = symbols.process('@{Write me at <john.doe@example.com>|info}');
       expect(actual).to.eql('<div class="spoiler spoiler-info">Write me at  <a href="mailto:john.doe@example.com">john.doe</a></div>');
     });
   });

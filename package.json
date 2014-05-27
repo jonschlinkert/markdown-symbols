@@ -1,7 +1,7 @@
 {
   "name": "markdown-symbols",
   "description": "Easily add and create custom symbols to use in markdown, and then compile them to HTML.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "https://github.com/jonschlinkert/markdown-symbols",
   "author": {
     "name": "Jon Schlinkert",
@@ -22,11 +22,11 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "frep": "~0.1.6",
-    "lodash": "~2.4.1",
-    "chai": "~1.9.0",
-    "fs-utils": "~0.3.6",
-    "delims": "~0.1.2"
+    "delims": "^0.1.4",
+    "frep": "^0.2.1",
+    "fs-utils": "^0.4.3",
+    "lodash": "^2.4.1",
+    "strings": "^0.3.1"
   },
   "keywords": [
     "convert markdown",
@@ -42,5 +42,9 @@
     "markdown",
     "marked",
     "md"
-  ]
+  ],
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "verb": "^0.2.11"
+  }
 }

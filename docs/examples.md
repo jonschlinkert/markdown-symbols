@@ -1,6 +1,6 @@
 To build the examples, run `npm i && node examples/example`
 
-### Labels
+## Labels
 
 ```
 ||This is a label!||
@@ -8,7 +8,7 @@ To build the examples, run `npm i && node examples/example`
 ||This is a label!|success||
 ```
 
-### Spoiler
+## Spoiler
 
 ```
 > and captcha protected spoilers:
@@ -18,7 +18,7 @@ To build the examples, run `npm i && node examples/example`
 !\{{Write me at <john.doe@example.com>|info}}
 ```
 
-### Progress bars
+## Progress bars
 
 ```
 =====0%=====
@@ -27,20 +27,20 @@ To build the examples, run `npm i && node examples/example`
 =====80%|success=====
 ```
 
-### Glyphicons
+## Glyphicons
 
 ```
 ::|search::
 ```
 
-### Badges
+## Badges
 
 ```
 [[42]]
 [[42|danger]]
 ```
 
-### Jumbotrons
+## Jumbotrons
 
 ```
 ////
@@ -48,7 +48,7 @@ Hello, world|small
 ////
 ```
 
-### Alerts
+## Alerts
 
 ```
 !!New update released! !!

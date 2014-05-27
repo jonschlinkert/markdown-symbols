@@ -7,11 +7,11 @@ If you find a bug or have a feature request, [please create an issue](https://gi
 Inspired by [@Vinz243](https://github.com/Vinz243) from [this issue on marked-extras](https://github.com/assemble/marked-extras/issues/3).
 
 ## Install
-Use [npm](npmjs.org) to install the package
+Install with [npm](npmjs.org):
 
-```
+```bash
 npm i markdown-symbols --save
-```
+``` 
 
 ## Usage
 ```js
@@ -71,7 +71,7 @@ The [delims](https://github.com/jonschlinkert/delims) library is used to create 
 ## Examples
 To build the examples, run `npm i && node examples/example`
 
-#### Labels
+### Labels
 
 ```
 ||This is a label!||
@@ -79,7 +79,7 @@ To build the examples, run `npm i && node examples/example`
 ||This is a label!|success||
 ```
 
-#### Spoiler
+### Spoiler
 
 ```
 > and captcha protected spoilers:
@@ -89,7 +89,7 @@ To build the examples, run `npm i && node examples/example`
 !\{{Write me at <john.doe@example.com>|info}}
 ```
 
-#### Progress bars
+### Progress bars
 
 ```
 =====0%=====
@@ -98,20 +98,20 @@ To build the examples, run `npm i && node examples/example`
 =====80%|success=====
 ```
 
-#### Glyphicons
+### Glyphicons
 
 ```
 ::|search::
 ```
 
-### Badges
+## Badges
 
 ```
-[[42}}
-[[42|danger}}
+[[42]]
+[[42|danger]]
 ```
 
-### Jumbotrons
+## Jumbotrons
 
 ```
 ////
@@ -119,7 +119,7 @@ Hello, world|small
 ////
 ```
 
-### Alerts
+## Alerts
 
 ```
 !!New update released! !!
@@ -134,5 +134,5 @@ Hello, world|small
 + [twitter/jonschlinkert](http://twitter.com/jonschlinkert)
 
 ## License
-Copyright (c) 2014 Jon Schlinkert, contributors.
+Copyright (c) 2014 Jon Schlinkert, contributors.  
 Released under the MIT license
